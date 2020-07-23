@@ -47,7 +47,7 @@
                 <li class="nav-item dropdown"> <a class="dropdown-toggle" href="#" id="dropdown-why" data-toggle="dropdown"> Why a reusable solution</a>
                   <div class="dropdown-menu dropdown-menu-right"> <a class="dropdown-item" href="overview.html"><span>Overview</span></a> <a class="dropdown-item" href="overview.html#rsp-benefits"><span>Benefits</span></a> <a class="dropdown-item" href="success-stories.html"><span>Success stories</span></a> <a class="dropdown-item" href="#"><span>Contact our team</span></a> </div>
                 </li>
-                <li class="nav-item"> <a href="solutions.html">Solutions</a> </li>
+                <li class="nav-item active"> <a href="solutions.html">Solutions</a> </li>
                 <li class="nav-item"> <a href="#" class="link-external"><span>Developer</span></a> </li>
               </ul>
             </div>
@@ -82,7 +82,7 @@
                 <input type="text" class="form-control form-control-lg mb-2" id="inlineFormInput">
               </div>
               <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-2">Search</button>
+                <button type="submit" class="btn btn-primary mb-2"><span>Search</span></button>
               </div>
             </div>
             <p>For example: EU Login, notification, JAVA</p>
@@ -93,10 +93,10 @@
   </div>
   
   <!--FORM ALPHABET-->
-  <section class="p-0 bg-light">
+  <section class="pt-3 pb-3 bg-light">
     <div class="container">
       <div class="row justify-content-end">
-		  <h2 class="d-none">Search by solution</h2>
+        <h2 class="d-none">Search by solution</h2>
         <div class="col-lg-9 solution-alphabet"> <a href="#">a</a> <a href="#">b</a> <a href="#">c</a> <a href="#">d</a> <a href="#">e</a> <a href="#">f</a> <a href="#">g</a> <a href="#">h</a> <a href="#">i</a> <a href="#">j</a> <a href="#">k</a> <a href="#">l</a> <a href="#">m</a> <a href="#">n</a> <a href="#">o</a> <a href="#">p</a> <a href="#">q</a> <a href="#">r</a> <a href="#">s</a> <a href="#">t</a> <a href="#">u</a> <a href="#">v</a> <a href="#">w</a> <a href="#">x</a> <a href="#">y</a> <a href="#">z</a> </div>
       </div>
     </div>
@@ -105,68 +105,80 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-2 mt-5">
-          <form class="solution-filter">
-            <div class="form-group"> <span class="h5">Capability</span>
-              <ul>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1">
-                  <label class="custom-control-label" for="customCheck1">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck2">
-                  <label class="custom-control-label" for="customCheck2">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck3">
-                  <label class="custom-control-label" for="customCheck3">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck4">
-                  <label class="custom-control-label" for="customCheck4">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck5">
-                  <label class="custom-control-label" for="customCheck5">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck6">
-                  <label class="custom-control-label" for="customCheck6">Checkbox</label>
-                </li>
-              </ul>
+          <form class="form-solution-filter">
+            <div class="solution-filter"> <a class="h5 link-collapse-arrow" data-toggle="collapse" href="#collapseCapability" role="button" aria-expanded="true" aria-controls="collapseCapability">Capability</a>
+              <div class="collapse show" id="collapseCapability">
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="capability-01">
+                    <label class="form-check-label" for="capability-01"> Capability </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="capability-02">
+                    <label class="form-check-label" for="capability-02"> Capability </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="capability-03">
+                    <label class="form-check-label" for="capability-03"> Capability </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="capability-04">
+                    <label class="form-check-label" for="capability-04"> Capability </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="capability-05">
+                    <label class="form-check-label" for="capability-05"> Capability </label>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="form-group"> <span class="h5">Technology</span>
-              <ul>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck12">
-                  <label class="custom-control-label" for="customCheck12">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck22">
-                  <label class="custom-control-label" for="customCheck22">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck32">
-                  <label class="custom-control-label" for="customCheck32">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck42">
-                  <label class="custom-control-label" for="customCheck42">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck52">
-                  <label class="custom-control-label" for="customCheck52">Checkbox</label>
-                </li>
-                <li class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck62">
-                  <label class="custom-control-label" for="customCheck62">Checkbox</label>
-                </li>
-              </ul>
+            <div class="solution-filter"> <a class="h5 link-collapse-arrow" data-toggle="collapse" href="#collapseTechnology" role="button" aria-expanded="false" aria-controls="collapseTechnology">Technology</a>
+              <div class="collapse show" id="collapseTechnology">
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="technology-01">
+                    <label class="form-check-label" for="technology-01"> Technology </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="technology-02">
+                    <label class="form-check-label" for="technology-02"> Technology </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="technology-03">
+                    <label class="form-check-label" for="technology-03"> Technology </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="technology-04">
+                    <label class="form-check-label" for="technology-04"> Technology </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="technology-05">
+                    <label class="form-check-label" for="technology-05"> Technology </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </form>
         </div>
         <div class="col-lg-10 mt-3"> 
           <!--SOLUTIONS-->
-          <div class="row row-cols-1 row-cols-md-3 mt-3 mb-3 card-solution">
+          <div class="row row-cols-1 row-cols-md-3 mt-4 mb-5 card-solution">
             <div class="col mb-4">
               <div class="card">
                 <div class="card-body">

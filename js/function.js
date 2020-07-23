@@ -29,5 +29,3 @@ function scrollFunction() {
     document.getElementById("fixed-top").classList.remove("fixed-top");
   }
 }
-
-
